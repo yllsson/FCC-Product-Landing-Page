@@ -1,3 +1,7 @@
+/* missing reqs:
+1. At least 1 media query
+2. Utilise flexbox at least once */
+
 body {
   margin: 0;
   padding: 0;
