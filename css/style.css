@@ -2,7 +2,55 @@
 1. At least 1 media query
 2. Utilise flexbox at least once */
 
+
+/* Fonts and general style */
+
+@font-face {
+  font-family: 'Lobster';
+  src: url(../fonts/Lobster-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+
+
+/* Header */
+
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  height: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  padding-right: 4vw;
+  font-family: 'Lobster', serif;
+  font-size: 2em;
+}
+
+.nav-link a {
+  text-decoration: none;
+}
+
+
+/* Main */
+
+main {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  margin: 5vh 0;
 }
