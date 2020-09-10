@@ -31,10 +31,15 @@ p {
 /* Header */
 
 header {
-  height: 15vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  height: 15vh;
   background-color: #ffe8d6;
 }
 
@@ -42,13 +47,13 @@ header {
   height: 100%;
 }
 
-.nav-link {
+li {
   display: inline-block;
   padding-right: 4vw;
   font-size: 2em;
 }
 
-.nav-link a {
+.nav-link {
   text-decoration: none;
   color: #af460f;
 }
@@ -57,7 +62,7 @@ header {
 /* Main */
 
 main {
-  margin-top: 5vh;
+  margin-top: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
