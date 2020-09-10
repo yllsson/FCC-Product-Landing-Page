@@ -1,9 +1,7 @@
-/* missing FCC reqs:
-1. At least 1 media query
-*/
+/* What to do tomorrow/next time: Make the media query work! */
 
 
-/* Fonts and general style */
+/* Fonts */
 
 @font-face {
   font-family: 'Lobster';
@@ -14,6 +12,9 @@
   font-family: 'karma';
   src: url(../fonts/Karma-Regular.ttf);
 }
+
+
+/* general style */
 
 body {
   margin: 0;
@@ -27,6 +28,7 @@ p {
   font-family: 'karma', serif;
   font-size: 1.1em;
 }
+
 
 /* Header */
 
@@ -58,11 +60,25 @@ li {
   color: #af460f;
 }
 
+@media screen and (max-width: 411px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffe8d6;
+  }
+
+  #header-img {
+    width: 100%;
+  }
+}
 
 /* Main */
 
 main {
-  margin-top: 15vh;
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
