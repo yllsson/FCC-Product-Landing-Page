@@ -10,6 +10,11 @@
   src: url(../fonts/Lobster-Regular.ttf);
 }
 
+@font-face {
+  font-family: 'karma';
+  src: url(../fonts/Karma-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -18,7 +23,10 @@ body {
   background-color: white;
 }
 
-
+p {
+  font-family: 'karma', serif;
+  font-size: 1.1em;
+}
 
 /* Header */
 
@@ -56,8 +64,15 @@ main {
   align-items: center;
 }
 
+#info-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 form {
-  margin: 5vh 0;
+  margin: 10vh 0;
   background-color: #f9f6f7;
   padding: 1em;
 }
