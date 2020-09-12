@@ -129,6 +129,8 @@ form {
 
 #video {
   margin: 5vh 0;
+  width: 560px; 
+  height: 315px;
 }
 
 /* Media queries */
@@ -179,5 +181,10 @@ form {
   main {
     margin-top: 20vh;
     padding: 0;
+  }
+
+  #video {
+    width: 350px; 
+    height: 200px;
   }
 }
